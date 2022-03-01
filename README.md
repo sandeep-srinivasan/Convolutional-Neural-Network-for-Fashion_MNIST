@@ -8,7 +8,7 @@ Baseline System
 
 The input, since it is grayscale, is only one channel; each image is 28x28. The network architecture is as follows:
 
-● Layer 1:
+Layer 1:
 
   ● 2d convolution of 5x5, 6 feature maps (channels out)
   
@@ -18,7 +18,7 @@ The input, since it is grayscale, is only one channel; each image is 28x28. The 
   
   ● output of layer will be 12x12x6 (12x12 images, 6 channels)
   
-● Layer 2:
+Layer 2:
 
   ● 2d convolution of 5x5x6, 12 feature maps out
   
@@ -28,19 +28,19 @@ The input, since it is grayscale, is only one channel; each image is 28x28. The 
   
   ● output of layer will be 4x4x12 (4x4 image maps, 12 channels)
   
-● Layer 3:
+Layer 3:
 
   ● fully connected layer, 120 outputs
   
   ● outputs passed through relu
   
-● Layer 4:
+Layer 4:
 
   ● fully connected layer, 60 outputs
   
   ● outputs passed through relu
   
-● Layer 5:
+Layer 5:
 
   ● softmax layer with 10 outputs corresponding to classes
 
