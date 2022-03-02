@@ -1,7 +1,9 @@
-# Convolutional-Neural-Network-for-Fashion_MNIST-
+# Convolutional-Neural-Network-for-Fashion_MNIST
 Implementation of CNN for Fashion-MNIST dataset
 
 Fashion-MNIST dataset consists of 60,000 28x28 grayscale training images of clothing items of one of ten types (shirt, dress etc.,), and has a test set of 10,000 images.
+
+![image](https://user-images.githubusercontent.com/42225976/156299118-f03ab135-29e2-4253-9758-0c5bd7de6092.png)
 
 How it works:
 Baseline System
